@@ -10,6 +10,7 @@ import { User } from './interface/user';
 })
 export class AppComponent {
   title = 'countries';
+  
   showCountryDetail = false;
   countryDetail: Country[] = [];
 
