@@ -16,7 +16,6 @@ export class AppComponent {
 
   onRegionSelect(event: User) {
     this.showCountryDetail = event.showCountryDetail;
-    
     this.countryDetail = event.countryDetailData;
   }
 
